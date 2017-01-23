@@ -10,34 +10,37 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   
   <body>
     <header>
+      <h1>Responsive Web Design and Web Forms</h1>
       
     </header>
     
     <p>Responsive web design is an integrative development concept that solves the issues that arise when viewing websites on different platforms. It enhances a user's experience by fluently changing content to fit on all sizes and resolutions of screens. Using this type of design, A website will transition seamlessly between a phone, tablet, console, or computer monitor. The accessibility, architecture of the website, and foundation adapt to the environment. The layout utilizes grids, media queries, fluidity, and flexibility to scale content to fit the viewport. Portrait and landscape views are also a consideration, as well as, rotating smaller devices to flip between the two. A primary focus of RWD has been how to adjust photos so they don't lose resolution or their proportionality. Another aspect has been resizing and cropping text correctly.</p> 
 
-    <p>Without responsive design, a websites's content can appear completely differently on the vast amount of screens available. In the past, creating websites for many devices involved many different code sources. The lack of available adaptivity has been a hindrance that led to the creation of responsive web design. It integrates all of these ideas into one fluid experience. </p>
+    <p>Without responsive design, a websites's content can appear completely different on the vast amount of screens available. In the past, creating websites for many devices involved many different code sources. The lack of available adaptivity has been a hindrance that led to the creation of responsive web design. It integrates all of these ideas into one fluid experience. </p>
     
     <form>
       <fieldset>
         <p>If you would like to know more about web design, please join our mailing list- 
         </p>
         <label>Full Name
-          <input type="text" name="name">
+          <input type="text" name="name" required>
         </label>
 
         <label>Email
-          <input type="text" name="email">
+          <input type="text" name="email" required>
         </label>
         
         <label>How many emails would you like to receive per week?
             <select name="email-number">
-            <option value="" "email-number"></option>
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -59,7 +62,6 @@
         </label>
 
        <input type="submit" value="SUBMIT" name="submit">
-        
       </fieldset>
     </form>
     
